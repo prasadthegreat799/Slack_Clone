@@ -1,0 +1,57 @@
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 0;
+    background-color:var(--header-color);
+    color:white;
+}
+
+.header_left{
+    flex:0.3;
+    margin-left: 10px;
+    display:flex;
+    align-items: center;
+    
+}
+
+.header_left > .MuiSgvIcon-root{
+    
+
+    margin-left:auto;
+   margin-right: 30px;
+
+}
+
+.header_search{
+    flex:0.3;
+    text-align:center;
+    display:flex;
+    padding: 0 50px;
+    border: 1px Solid rgb(245, 242, 242);
+   border-radius:6px;
+  
+}
+
+.header_search>input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    min-width:35vw;
+    
+}
+
+
+.header_right{
+    margin-left: auto;
+    display: flex;
+    margin-right: 5px;
+    align-items: flex-end;
+}
+
+
+.header_right>.MuiSgvIcon-root{
+    
+    margin-left: auto;
+    margin-right: 20px;
+}

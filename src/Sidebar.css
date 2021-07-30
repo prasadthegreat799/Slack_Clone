@@ -1,0 +1,60 @@
+.sidebar {
+    background-color: var(--header-color);
+    border-top: 1px solid rgb(255, 255, 255);
+    max-width: 260px;
+    color: white;
+    flex: 0.3;
+}
+
+.sidebar_header{
+
+    display: flex;
+    flex: 0.1;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+    padding: 10px;
+
+}
+
+.sidebar_info{
+    flex: 1;
+}
+
+.sidebar_info>h2 {
+
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+.sidebar_info > h3{
+
+    display: flex;
+    align-items: center;
+    font-size: 1xp;
+    font-weight: 400;
+}
+
+.onlineIcon{
+
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+   
+}
+
+.sidebar_header>.MuiSgvIcon-root{
+    padding: 8px;
+    font-size: 18px;
+    border-radius:999px;
+    background-color:white;
+
+}
+
+.sidebar__middle{
+    flex: 0.3;
+    padding: -40px;
+    border-bottom: 1px solid white;
+}
